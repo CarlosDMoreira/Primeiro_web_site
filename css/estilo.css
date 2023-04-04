@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+}
+
+#menu-hori ul{
+    max-width: 1000px;
+    list-style: none;
+    padding: 0;
+    background-color: black;
+}
+
+#menu-hori ul li{
+    display: inline-block;
+}
+
+#menu-hori ul li a{
+    color: white;
+    display: inline;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    transition: background .5s;
+}
+
+#prologo{
+    padding: 200px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.prologo-text{
+    padding-top: 25px;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+.title-me{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 25px;
+}
+
+.fa-1x{
+    padding: 10px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+#presentation{
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.more-me{
+    margin: 20px;
+    padding: 20px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.text-more-me{
+    margin: 20px;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+#my-skills{
+    margin: 20px;
+    padding: 20px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.skills{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 20px;
+    margin: 20px;
+}
+
+#future{
+    margin: 20px;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
