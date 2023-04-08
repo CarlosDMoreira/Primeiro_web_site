@@ -25,8 +25,24 @@
     text-decoration: none;
     padding: 20px;
     display: inline-block;
-    transition: background .5s;
 }
+
+@keyframes expand{
+    0% {
+        width: 0;
+      }
+      50% {
+        width: 100%;
+      }
+      100% {
+        width: 0;
+      }
+}
+
+#menu-hori a:hover {
+    border-bottom: 2px solid purple;
+    animation: expand 1s ease-in-out infinite;
+  }
 
 #prologo{
     padding: 200px;
@@ -50,6 +66,7 @@
 
 .fa-1x{
     padding: 10px;
+    padding-top: 80px;
     margin-right: 50px;
     text-align: center;
 }
@@ -76,6 +93,7 @@
     font-size: 17px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
+    text-align: justify;
 }
 
 #my-skills{
@@ -91,11 +109,4 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-bottom: 20px;
     margin: 20px;
-}
-
-#future{
-    margin: 20px;
-    font-size: 17px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
 }
