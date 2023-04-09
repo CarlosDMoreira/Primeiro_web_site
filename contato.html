@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" type="text/css" href="./css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="./css/estilo_contato.css">
+</head>
+<body>
+    <header>
+        <nav id="menu-hori">
+            <marquee direction="up" behavior="slide" scrollamount="10"> 
+            <ul>
+                <li>
+                    <a href="index.html">Início</a>
+                </li>
+                <li>
+                    <a href="About.html">Sobre</a>
+                </li>
+                <li>
+                    <a href="contato.html">Contato</a>
+                </li>
+                <li>
+                    <a href="portifolio.html">Projetos</a>
+                </li>
+            </ul>
+            </marquee>
+        </nav>
+    </header>
+    <div>
+        <h1>Contato</h1>
+    </div>
+    <div>
+    <form class="form" action="https://formsubmit.co/carlosmoreira030@gmail.com" method="POST" autocomplete="off">
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
+        <div>
+            <label for="name">Nome:</label>
+            <input type="text" name="name"  id="name" required>
+        </div>
+
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+
+        <div>
+            <label for="message">Mensagem:</label>
+            <textarea name="message" id="message" placeholder="Digite aqui..."></textarea>
+        </div>
+
+        <button type="submit">Send</button>  
+    </form>
+</div>
+</body>
+</html>
